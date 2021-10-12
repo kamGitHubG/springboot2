@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  servlet:
+    contextPath: /secondProject
+  port: 8081
